@@ -25,6 +25,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#author">Author</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#where">Where</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Reviews</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
                     </ul>
                 </div>
@@ -33,9 +34,20 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">SAUDADE</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">A feeling of longing, melancholy, or nostalgia that is supposedly characteristic of the Portuguese or Brazilian temperament.</h2>
+                <div class="mt-1 text-center">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="mx-auto" style="margin-bottom: 0; ">SAUDADE</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <img style="max-width: 100%; max-height: 100%; padding-top: 10%;" src="assets/img/cover.png" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="text-white-50 mx-auto" style="padding-top: 10%;">
+                                The beauty that I find in the chaos, destruction and serenity, that is life; The joy that I find in people, places and poetry. Nostalgic, each time I pass the lanes, the roads, the cities that we’ve been to together. My work and my art are melancholy. I crave the youth of the moment and I compel you to do the same. The past cannot be changed and neither would I want to. For my past, defines me, so does my future and my present. Let love flow through your veins, as you think about moments, let love teach you to embrace every moment and when you think about them, let each moment bring you immense joy and happiness, no angst, just pure happiness and nostalgia.
+                            </h2>
+                        </div>
+                    </div>
                     <div class="container countdown">
                                 <div class="movie-date">July 18, 2020</div>
                                 <ul>
@@ -58,7 +70,7 @@
                         <p class="text-white-50">Sushmita Nair</p>
                     </div>
                 </div>
-                <img class="img-fluid" src="https://lh3.googleusercontent.com/pw/ACtC-3eNa0WfM644oUdlwzBY5r78-3NrGHLgaNAkedcmcHLpqIKl0tJaZLhhQJIdKPEYUWxHuQnjIq1kq1n_HeVsNN4dA-zsbg_xbBNVtO26PsJrXe1kQ7Fvuj6396j2kZiM4_oY7t9yC_WZTmoxFW5dnRoT=w582-h733-no" alt="" />
+                <img class="img-fluid" src="assets/img/author.jpg" alt="" />
             </div>
         </section>
         <section class="where-section text-center" id="where">
@@ -66,10 +78,15 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-white mb-4">Coming soon on</h2>
-                        <a class="btn btn-primary js-scroll-trigger" href="#">AMAZON</a>
-                        <a class="btn btn-primary js-scroll-trigger" href="#">NOTIONPRESS</a>
+                        <a class="btn btn-primary js-scroll-trigger" href="https://www.amazon.in/SAUDADE-sweet-melancholy-Sushmeeta-Nair/dp/1648692710" target="_blank">AMAZON</a>
+                        <a class="btn btn-primary js-scroll-trigger" href="https://notionpress.com/read/saudade" target="_blank">NOTIONPRESS</a>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="comment-section text-center" id="reviews">
+            <div class="container">
+                <div class="commentbox"></div>
             </div>
         </section>
         <!-- Signup
@@ -133,5 +150,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- Comment BOX -->
+        <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+        <script>commentBox('5737969520476160-proj');</script>
     </body>
 </html>

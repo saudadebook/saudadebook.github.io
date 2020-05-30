@@ -2,6 +2,7 @@
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 1em;
   }
 
   .countdown .movie-date {
@@ -19,7 +20,7 @@
     text-align: center;
     display: inline-block;
     font-size: 0.85rem;
-    color: #1d1e22;
+    color: whitesmoke;
     list-style-type: none;
     padding: 4px;
     padding-top: 0;
