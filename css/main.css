@@ -1,8 +1,8 @@
 #fixed-btn {
   position: fixed;
   bottom: 10px;
-  right: auto;
-  left: auto; 
+  right: 0;
+  left: 0; 
 }
 #amazon-btn{
   background-color:#131921;
