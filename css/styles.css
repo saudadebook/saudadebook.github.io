@@ -10283,7 +10283,7 @@ body {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.9) 5%, #82758F 80%);
 }
 .comment-section{
-  background: linear-gradient(to bottom, #82758F 20%, #ffffff 60%);
+  background-color: white;
 }
 .about-section p {
   margin-bottom: 0.2rem;
