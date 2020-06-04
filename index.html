@@ -20,11 +20,11 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Saudade</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Saudade</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#author">Author</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#where">Where</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Reviews</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
                     </ul>
@@ -33,35 +33,87 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mt-1 text-center">
+            <div class="container h-100 align-items-center">
+                <div class="text-center">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h1 class="mx-auto" style="margin-bottom: 0; ">SAUDADE</h1>
+                            <h1 class="mx-auto pt-7">SAUDADE</h1>
                         </div>
-                        <div class="col-md-6">
-                            <img style="max-width: 100%; max-height: 100%; padding-top: 10%;" src="assets/img/cover.png" alt="">
+                        <div class="col-md-6" style="padding-top: 2%;" >
+                            <img style="max-width: 100%; max-height: 80em;" src="assets/img/cover.png" alt="">
                         </div>
-                        <div class="col-md-6">
-                            <h2 class="text-white-50 mx-auto" style="padding-top: 10%;">
-                                The beauty that I find in the chaos, destruction and serenity, that is life; The joy that I find in people, places and poetry. Nostalgic, each time I pass the lanes, the roads, the cities that we’ve been to together. My work and my art are melancholy. I crave the youth of the moment and I compel you to do the same. The past cannot be changed and neither would I want to. For my past, defines me, so does my future and my present. Let love flow through your veins, as you think about moments, let love teach you to embrace every moment and when you think about them, let each moment bring you immense joy and happiness, no angst, just pure happiness and nostalgia.
-                            </h2>
+                        <div class="col-lg-6 mt-4 mb-4" style="padding-top: 5%;">
+                            <h1 class="text-white" style="padding-bottom: 2%";>Available Now!</h1>
+                            <a id="amazon-btn" class="btn btn-primary js-scroll-trigger" href="https://www.amazon.in/SAUDADE-sweet-melancholy-Sushmeeta-Nair/dp/1648692710" target="_blank">AMAZON.in</a>
+                            <a id="notion-btn" class="btn btn-primary js-scroll-trigger" href="https://notionpress.com/read/saudade" target="_blank">NOTIONPRESS</a>
                         </div>
                     </div>
-                    <div class="container countdown">
-                                <div class="movie-date">July 18, 2020</div>
-                                <ul>
-                                  <li><span id="days"></span>days</li>
-                                  <li><span id="hours"></span>Hours</li>
-                                  <li><span id="minutes"></span>Minutes</li>
-                                  <li><span id="seconds"></span>Seconds</li>
-                                </ul>
-                    </div>
-                    <a class="btn btn-primary js-scroll-trigger" href="#where">Stay Tuned</a>
+                    <a onclick="hideme(this);" id="fixed-btn" href="#about"><i class="fa fa-chevron-down" style="font-size:48px;"></i></a>
                 </div>
             </div>
         </header>
         <!-- About-->
+        <section class="projects-section bg-light" id="about">
+            <div class="container">
+                <!-- Featured Project Row-->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/book1.png" alt="" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Saudade</h4>
+                            <p class="text-black-50 mb-0">
+                                The beauty that I find in the chaos, destruction and serenity, that is life; <br><br>
+
+The joy that I find in people, places and poetry.<br><br>
+
+Nostalgic, each time I pass the lanes, the roads, the cities that we’ve been to together.<br><br>
+
+My work and my art are melancholy. I crave the youth of the moment and I compel you to do the same. The past cannot be changed and neither would I want to.<br><br>
+
+For my past, defines me, so does my future and my present.<br><br>
+
+Let love flow through your veins, as you think about moments, let love teach you to embrace every moment and when you think about them, let each moment bring you immense joy and happiness, no angst, just pure happiness and nostalgia.<br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Misty</h4>
+                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Project Two Row-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/def.jpeg" alt="" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Saudade, is a book divided into four sections;</h4>
+                                    <p class="mb-0 text-white-50">
+                                        <b>The beauty of true love:</b> the love that one has for oneself shall always be superior to any other element of life. it is not a phase and it does not come in waves. one might not feel it, but the love one has is strong, always shall be. <br><br>
+                                        <b>The beauty of us:</b> two hearts, two souls intertwined together, is a gift, a perishable gift. cherished when possessed, the love shall always be in our memories, if not in our hearts, and that is the true beauty of love.<br><br>
+                                        <b>bloodshed:</b> the wrath, the fear and the rage of the unknown is what drives us to be what we are today. there is anguish, pain, sadness and sorrow in our lives. hurt is the sixth element of life. and it needs to be penned down. every syllable needs to bleed blue ink to justify the anguish that one feels.<br><br>
+                                    </p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Author-->
         <section class="about-section text-center" id="author">
             <div class="container">
                 <div class="row">
@@ -71,17 +123,6 @@
                     </div>
                 </div>
                 <img class="img-fluid" src="assets/img/author.jpg" alt="" />
-            </div>
-        </section>
-        <section class="where-section text-center" id="where">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Coming soon</h2>
-                        <a class="btn btn-primary js-scroll-trigger" href="https://www.amazon.in/SAUDADE-sweet-melancholy-Sushmeeta-Nair/dp/1648692710" target="_blank">AMAZON</a>
-                        <a class="btn btn-primary js-scroll-trigger" href="https://notionpress.com/read/saudade" target="_blank">NOTIONPRESS</a>
-                    </div>
-                </div>
             </div>
         </section>
         <section class="comment-section text-center" id="reviews">
@@ -137,7 +178,9 @@
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <!-- <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                    <a class="mx-2" href="https://www.instagram.com/sushmeetanair/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </section>

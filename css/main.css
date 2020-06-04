@@ -1,4 +1,26 @@
-  .countdown {
+#fixed-btn {
+  position: fixed;
+  bottom: 10px;
+  right: auto;
+  left: auto; 
+}
+#amazon-btn{
+  background-color:#131921;
+  padding: 1rem;
+  font-size: large;
+}
+#amazon-btn:hover{
+  background-color: rgb(63, 124, 173);
+}
+#notion-btn{
+  background-color: #131921;
+  padding: 1rem;
+  font-size: large;
+} 
+#notion-btn:hover{
+  background-color: rgb(173, 79, 63);
+}
+ .countdown {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;

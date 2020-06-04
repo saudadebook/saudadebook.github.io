@@ -7895,6 +7895,11 @@ button.bg-black:focus {
   padding-top: 3rem !important;
 }
 
+.pt-7,
+.py-7 {
+  padding-top: 5rem !important;
+}
+
 .pr-5,
 .px-5 {
   padding-right: 3rem !important;
@@ -10236,7 +10241,7 @@ body {
 }
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   /* line-height: 2.5rem; */
   letter-spacing: 1rem;
   /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
@@ -10248,8 +10253,8 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
 @media (min-width: 992px) {
@@ -10258,8 +10263,8 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
